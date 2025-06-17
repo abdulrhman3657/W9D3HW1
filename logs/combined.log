@@ -237,3 +237,11 @@
 {"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T15:01:56.343Z"}
 {"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T15:02:05.187Z"}
 {"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T15:02:19.049Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T15:02:25.009Z"}
+{"level":"info","message":"DELETE /api/dealers/01JXZ6GK19KN4F4RH39CSFGPSR 404 44 - 16.111 ms","timestamp":"2025-06-17T15:02:30.440Z"}
+{"level":"info","message":"POST /api/dealers/ 201 201 - 3.212 ms","timestamp":"2025-06-17T15:02:33.896Z"}
+{"level":"info","message":"GET /api/dealers 200 203 - 0.574 ms","timestamp":"2025-06-17T15:02:40.070Z"}
+{"level":"info","message":"DELETE /api/dealers/01JXZ6GK19KN4F4RH39CSFGPSR 404 44 - 0.796 ms","timestamp":"2025-06-17T15:02:42.422Z"}
+{"level":"info","message":"DELETE /api/dealers/01JXZ6KMN54QRKZBCST01V3M5Q 200 26 - 0.880 ms","timestamp":"2025-06-17T15:02:44.947Z"}
+{"level":"info","message":"DELETE /api/dealers/01JXZ6KMN54QRKZBCST01V3M5Q 404 44 - 0.501 ms","timestamp":"2025-06-17T15:02:45.792Z"}
+{"level":"info","message":"GET /api/dealers 200 26 - 0.306 ms","timestamp":"2025-06-17T15:02:53.465Z"}
