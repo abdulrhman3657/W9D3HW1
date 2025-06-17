@@ -1,8 +1,7 @@
 export interface List {
   id: string;
-  name: string;
-  email: string;
-  city: string;
+  country: string;
+  brand: string;
   createdAt: Date;
   updatedAt: Date;
 }
