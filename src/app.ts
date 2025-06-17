@@ -8,6 +8,7 @@ import { dev, port } from './utils/helpers';
 import { OK, INTERNAL_SERVER_ERROR } from './utils/http-status';
 import dealersRouter from "./routes/dealer.routes"
 import CarMakeRouter from "./routes/CarMake.routes"
+import carRouter from "./routes/car.routes"
 
 // Load environment variables
 dotenv.config();
@@ -24,6 +25,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/dealers", dealersRouter)
 app.use("/api/carmake", CarMakeRouter)
+app.use("/api/car", carRouter)
 
 // Basic route
 app.get('/', (req: Request, res: Response) => {
