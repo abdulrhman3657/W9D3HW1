@@ -1,0 +1,64 @@
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T12:56:34.963Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T12:56:40.166Z"}
+{"level":"info","message":"GET / 200 22 - 2.277 ms","timestamp":"2025-06-17T12:56:51.590Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T12:58:10.726Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:00:37.119Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:00:49.058Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:00:53.217Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:01:50.804Z"}
+{"level":"info","message":"GET /api/dealers 200 5 - 3.144 ms","timestamp":"2025-06-17T13:02:20.156Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:04:35.867Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:39:08.362Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:40:01.966Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:40:20.024Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:41:58.795Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:42:23.443Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:42:56.362Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:43:47.134Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:44:02.100Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:44:26.665Z"}
+{"level":"info","message":"GET /api/dealers 200 17 - 2.555 ms","timestamp":"2025-06-17T13:44:36.177Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:47:47.837Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:48:01.768Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:49:35.168Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:51:19.573Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:51:26.555Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:51:37.638Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:53:22.312Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:54:24.631Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:54:49.542Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:54:57.692Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:55:11.488Z"}
+{"level":"info","message":"GET /api/dealers 304 - - 2.925 ms","timestamp":"2025-06-17T13:55:26.055Z"}
+{"level":"info","message":"GET /api/dealers 304 - - 0.466 ms","timestamp":"2025-06-17T13:55:28.206Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:56:12.013Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:56:17.326Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:56:41.808Z"}
+{"level":"info","message":"GET /api/dealers 304 - - 3.054 ms","timestamp":"2025-06-17T13:56:44.297Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T13:58:08.805Z"}
+{"level":"info","message":"GET / 200 22 - 2.248 ms","timestamp":"2025-06-17T14:00:17.057Z"}
+{"level":"info","message":"GET /api/dealers 200 17 - 1.070 ms","timestamp":"2025-06-17T14:00:27.807Z"}
+{"level":"info","message":"POST /api/dealers 200 19 - 1.083 ms","timestamp":"2025-06-17T14:00:32.458Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T14:01:39.757Z"}
+{"level":"info","message":"POST /api/dealers 200 19 - 2.943 ms","timestamp":"2025-06-17T14:06:03.363Z"}
+{"level":"info","message":"POST /api/dealers 200 19 - 150.480 ms","timestamp":"2025-06-17T14:06:33.065Z"}
+{"level":"info","message":"POST /api/dealers 200 19 - 1.166 ms","timestamp":"2025-06-17T14:08:57.454Z"}
+{"level":"info","message":"POST /api/dealers 200 19 - 0.888 ms","timestamp":"2025-06-17T14:09:40.298Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T14:11:06.417Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T14:11:13.682Z"}
+{"level":"info","message":"POST /api/dealers 200 19 - 18.380 ms","timestamp":"2025-06-17T14:11:16.255Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T14:12:54.268Z"}
+{"level":"info","message":"POST /api/dealers 200 19 - 17.271 ms","timestamp":"2025-06-17T14:12:54.831Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T14:13:04.776Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T14:13:49.874Z"}
+{"level":"info","message":"POST /api/dealers 200 19 - 15.896 ms","timestamp":"2025-06-17T14:13:51.596Z"}
+{"level":"info","message":"POST /api/dealers 200 19 - 0.797 ms","timestamp":"2025-06-17T14:13:53.766Z"}
+{"level":"info","message":"POST /api/dealers 400 51 - 0.950 ms","timestamp":"2025-06-17T14:13:59.551Z"}
+{"level":"info","message":"POST /api/dealers 400 51 - 0.473 ms","timestamp":"2025-06-17T14:14:01.343Z"}
+{"level":"info","message":"POST /api/dealers 200 19 - 0.692 ms","timestamp":"2025-06-17T14:14:12.461Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T14:15:30.084Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T14:15:34.055Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T14:15:41.323Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T14:15:52.503Z"}
+{"level":"info","message":"POST /api/dealers 200 19 - 18.663 ms","timestamp":"2025-06-17T14:15:54.089Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T14:17:24.484Z"}
