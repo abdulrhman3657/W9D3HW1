@@ -128,3 +128,54 @@ export const deleteCar = async (
     })
   }
 }
+
+export const Get_all_cars_by_dealerId = async (
+  req: Request,
+  res: Response
+): Promise<void> => {
+  try {
+
+    const id = req.params.id
+    const dealerID = req.params.dealerID
+
+    console.log(dealerID)
+    console.log(id)
+
+
+    const cars = CarStore.findAll()
+
+    const filteredCars = cars.filter(car => {
+      return car.dealerId == dealerID
+    })
+
+    res.status(OK).json({
+      success: true,
+      data: filteredCars,
+    })
+
+    // res.send("asas")
+
+
+  } catch (error) {
+    res.status(BAD_REQUEST).json({
+      success: false,
+      error: error instanceof Error ? error.message : "Failed to Get cars by dealerId",
+    })
+  }
+}
+
+export const Get_all_cars_by_carMakeId = async (
+  req: Request,
+  res: Response
+): Promise<void> => {
+  try {
+
+    console.log(req.params.id)
+
+  } catch (error) {
+    res.status(BAD_REQUEST).json({
+      success: false,
+      error: error instanceof Error ? error.message : "Failed to Get cars by dealerId",
+    })
+  }
+}
