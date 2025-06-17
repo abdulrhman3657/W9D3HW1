@@ -528,3 +528,32 @@
 {"level":"info","message":"DELETE /api/car/01JXZFF1MYV3EMQYB0WAHMN3YS 200 26 - 0.504 ms","timestamp":"2025-06-17T17:53:13.963Z"}
 {"level":"info","message":"GET /api/car 200 2221 - 0.414 ms","timestamp":"2025-06-17T17:53:17.100Z"}
 {"level":"info","message":"DELETE /api/car/01JXZFF1MYV3EMQYB0WAHMN3YS 404 46 - 0.485 ms","timestamp":"2025-06-17T17:53:20.532Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:54:11.241Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:54:58.464Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:55:18.107Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:55:34.929Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:55:42.876Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:55:49.323Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:56:50.715Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:57:00.711Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:57:18.443Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:57:38.302Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:58:16.056Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:58:33.105Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:58:38.500Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:58:56.348Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:59:00.248Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:59:27.392Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:59:35.271Z"}
+{"level":"info","message":"POST /api/car 201 267 - 19.102 ms","timestamp":"2025-06-17T17:59:55.183Z"}
+{"level":"info","message":"POST /api/car 201 267 - 1.278 ms","timestamp":"2025-06-17T17:59:56.676Z"}
+{"level":"info","message":"POST /api/car 201 267 - 0.807 ms","timestamp":"2025-06-17T18:00:01.910Z"}
+{"level":"info","message":"GET /api/car 200 757 - 0.467 ms","timestamp":"2025-06-17T18:00:07.522Z"}
+{"level":"info","message":"GET /api/car 200 757 - 0.423 ms","timestamp":"2025-06-17T18:00:16.281Z"}
+{"level":"info","message":"GET /api/car 304 - - 0.364 ms","timestamp":"2025-06-17T18:00:17.975Z"}
+{"level":"info","message":"GET /api/car/01JXZGRK3NMVCSEGD18DRDXEXV 200 267 - 0.552 ms","timestamp":"2025-06-17T18:00:26.805Z"}
+{"level":"info","message":"PUT /api/car/01JXZGRK3NMVCSEGD18DRDXEXV 200 253 - 0.675 ms","timestamp":"2025-06-17T18:00:33.032Z"}
+{"level":"info","message":"GET /api/car 200 743 - 1.377 ms","timestamp":"2025-06-17T18:00:36.330Z"}
+{"level":"info","message":"DELETE /api/car/01JXZGRK3NMVCSEGD18DRDXEXV 200 26 - 0.565 ms","timestamp":"2025-06-17T18:00:42.893Z"}
+{"level":"info","message":"GET /api/car 200 513 - 0.498 ms","timestamp":"2025-06-17T18:00:48.017Z"}
+{"level":"info","message":"DELETE /api/car/01JXZGRK3NMVCSEGD18DRDXEXV 404 41 - 0.497 ms","timestamp":"2025-06-17T18:00:51.192Z"}

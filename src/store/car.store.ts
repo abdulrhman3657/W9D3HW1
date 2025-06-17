@@ -1,7 +1,7 @@
 import { List } from "../models/car.model";
 import { generateId } from "../utils/generate-id";
 
-const carMake: Map<string, List> = new Map();
+const cars: Map<string, List> = new Map();
 
 const create = (data: Omit<List, 'id' | 'createdAt' | 'updatedAt'>): List => {
   const id = generateId();
@@ -13,20 +13,20 @@ const create = (data: Omit<List, 'id' | 'createdAt' | 'updatedAt'>): List => {
     updatedAt: now,
   };
   
-  carMake.set(id, list);
+  cars.set(id, list);
   return list;
 }
 
 const findAll = (): List[] => {
-  return Array.from(carMake.values());
+  return Array.from(cars.values());
 }
 
 const findById = (id: string): List | undefined => {
-  return carMake.get(id);
+  return cars.get(id);
 }
 
 const update = (id: string, data: Partial<Omit<List, 'id' | 'createdAt'>>): List | undefined => {
-  const carmake = carMake.get(id);
+  const carmake = cars.get(id);
   if (!carmake) return undefined;
 
   const updatedDealer: List = {
@@ -35,15 +35,15 @@ const update = (id: string, data: Partial<Omit<List, 'id' | 'createdAt'>>): List
     updatedAt: new Date(),
   };
 
-  carMake.set(id, updatedDealer);
+  cars.set(id, updatedDealer);
   return updatedDealer;
 }
 
 const deleteDealer = (id: string): boolean => {
-  return carMake.delete(id);
+  return cars.delete(id);
 }
 
-export const CarMakeStore = {
+export const CarStore = {
   create,
   findAll,
   findById,

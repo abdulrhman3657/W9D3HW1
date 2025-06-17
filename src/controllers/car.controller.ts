@@ -1,32 +1,30 @@
 import { Request, Response } from 'express';
 import { OK, CREATED, BAD_REQUEST, NOT_FOUND } from '../utils/http-status';
-import { CarMakeStore } from "../store/car.store"
+import { CarStore } from "../store/car.store"
 
 
-export const getCarMakes = async (req: Request, res: Response): Promise<void> => {
+export const getCars = async (req: Request, res: Response): Promise<void> => {
   try {
 
-    const carMake = CarMakeStore.findAll()
+    const cars = CarStore.findAll()
 
     res.status(OK).json({
       success: true,
-      data: carMake,
+      data: cars,
     })
 
   } catch (error) {
     res.status(BAD_REQUEST).json({
       success: false,
-      error: error instanceof Error ? error.message : 'Failed to fetch carMakes',
+      error: error instanceof Error ? error.message : 'Failed to fetch cars',
     });
   }
 };
 
-export const createCarMake = async (req: Request, res: Response): Promise<void> => {
+export const createCar = async (req: Request, res: Response): Promise<void> => {
   try {
 
     const { dealerId, carMakeId, name, price, year, color, wheelsCount} = req.body
-
-    console.log(req.body)
 
     if (!dealerId || !carMakeId || !name || !price || !year || !color || !wheelsCount) {
       res.status(BAD_REQUEST).json({
@@ -36,11 +34,11 @@ export const createCarMake = async (req: Request, res: Response): Promise<void> 
       return
     }
 
-    const carMake = CarMakeStore.create({ dealerId, carMakeId, name, price, year, color, wheelsCount})
+    const car = CarStore.create({ dealerId, carMakeId, name, price, year, color, wheelsCount})
 
     res.status(CREATED).json({
       success: true,
-      data: carMake,
+      data: car,
     })
 
   } catch (error) {
@@ -51,14 +49,14 @@ export const createCarMake = async (req: Request, res: Response): Promise<void> 
   }
 };
 
-export const getCarMake = async (req: Request, res: Response): Promise<void> => {
+export const getCar = async (req: Request, res: Response): Promise<void> => {
   try {
-    const carmake = CarMakeStore.findById(req.params.id)
+    const car = CarStore.findById(req.params.id)
 
-    if (!carmake) {
+    if (!car) {
       res.status(NOT_FOUND).json({
         success: false,
-        error: "car make not found",
+        error: "car not found",
       })
       return
     }
@@ -66,55 +64,55 @@ export const getCarMake = async (req: Request, res: Response): Promise<void> => 
     res.status(OK).json({
       success: true,
       data: {
-        ...carmake,
+        ...car,
       },
     })
   } catch (error) {
     res.status(BAD_REQUEST).json({
       success: false,
-      error: error instanceof Error ? error.message : "Failed to fetch car make",
+      error: error instanceof Error ? error.message : "Failed to fetch car",
     })
   }
 }
 
-export const updateCarMake = async (
+export const updateCar = async (
   req: Request,
   res: Response
 ): Promise<void> => {
   try {
-    const carMake = CarMakeStore.update(req.params.id, req.body)
-    if (!carMake) {
+    const car = CarStore.update(req.params.id, req.body)
+    if (!car) {
       res.status(NOT_FOUND).json({
         success: false,
-        error: "car make not found",
+        error: "car not found",
       })
       return
     }
     res.status(OK).json({
       success: true,
-      data: carMake,
+      data: car,
     })
   } catch (error) {
     res.status(BAD_REQUEST).json({
       success: false,
-      error: error instanceof Error ? error.message : "Failed to update carMake",
+      error: error instanceof Error ? error.message : "Failed to update car",
     })
   }
 }
 
-export const deleteCarMake = async (
+export const deleteCar = async (
   req: Request,
   res: Response
 ): Promise<void> => {
   try {
 
     // true or flase
-    const carMake = CarMakeStore.delete(req.params.id)
+    const car = CarStore.delete(req.params.id)
 
-    if (!carMake) {
+    if (!car) {
       res.status(NOT_FOUND).json({
         success: false,
-        error: "car make not found",
+        error: "car not found",
       })
       return
     }
@@ -126,7 +124,7 @@ export const deleteCarMake = async (
   } catch (error) {
     res.status(BAD_REQUEST).json({
       success: false,
-      error: error instanceof Error ? error.message : "Failed to delete carMake",
+      error: error instanceof Error ? error.message : "Failed to delete car",
     })
   }
 }
