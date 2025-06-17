@@ -26,11 +26,11 @@ const findById = (id: string): List | undefined => {
 }
 
 const update = (id: string, data: Partial<Omit<List, 'id' | 'createdAt'>>): List | undefined => {
-  const dealer = carMake.get(id);
-  if (!dealer) return undefined;
+  const carmake = carMake.get(id);
+  if (!carmake) return undefined;
 
   const updatedDealer: List = {
-    ...dealer,
+    ...carmake,
     ...data,
     updatedAt: new Date(),
   };

@@ -1,7 +1,7 @@
 import { createDealer, deleteDealer, getDealer, getDealers, updateDealer } from "../controllers/dealer.controller";
 import { Router } from "express"
 
-// item router
+
 const router = Router({ mergeParams: true })
 
 router.route("/").get(getDealers).post(createDealer)

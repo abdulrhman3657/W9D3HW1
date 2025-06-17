@@ -354,3 +354,26 @@
 {"level":"info","message":"DELETE /api/carmake/01JXZAWV91M5VP5R69NDK3PD8R 404 46 - 0.872 ms","timestamp":"2025-06-17T16:19:24.617Z"}
 {"level":"info","message":"POST /api/carmake 201 174 - 1.589 ms","timestamp":"2025-06-17T16:19:29.421Z"}
 {"level":"info","message":"GET /api/carmake 200 327 - 0.629 ms","timestamp":"2025-06-17T16:19:37.554Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:21:02.825Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:21:11.779Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:21:16.890Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:21:25.792Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:21:33.860Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:21:36.353Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:21:47.333Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:22:21.562Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:22:25.853Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:22:35.678Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:22:49.851Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:22:56.357Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:23:15.635Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:23:22.156Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:24:00.201Z"}
+{"level":"info","message":"POST /api/carmake 201 174 - 18.036 ms","timestamp":"2025-06-17T16:24:29.137Z"}
+{"level":"info","message":"POST /api/carmake 201 174 - 0.888 ms","timestamp":"2025-06-17T16:24:32.210Z"}
+{"level":"info","message":"GET /api/carmake 200 327 - 0.588 ms","timestamp":"2025-06-17T16:24:34.740Z"}
+{"level":"info","message":"GET /api/carmake/01JXZB9QPJAMCWRC0K0BMZ6PP2 200 174 - 0.559 ms","timestamp":"2025-06-17T16:24:49.137Z"}
+{"level":"info","message":"PUT /api/carmake/01JXZB9QPJAMCWRC0K0BMZ6PP2 200 191 - 0.728 ms","timestamp":"2025-06-17T16:24:56.901Z"}
+{"level":"info","message":"GET /api/carmake 200 344 - 0.356 ms","timestamp":"2025-06-17T16:25:01.446Z"}
+{"level":"info","message":"DELETE /api/carmake/01JXZB9QPJAMCWRC0K0BMZ6PP2 200 26 - 0.577 ms","timestamp":"2025-06-17T16:25:07.463Z"}
+{"level":"info","message":"GET /api/carmake 200 176 - 0.246 ms","timestamp":"2025-06-17T16:25:10.354Z"}
