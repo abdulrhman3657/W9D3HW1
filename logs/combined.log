@@ -62,3 +62,8 @@
 {"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T14:15:52.503Z"}
 {"level":"info","message":"POST /api/dealers 200 19 - 18.663 ms","timestamp":"2025-06-17T14:15:54.089Z"}
 {"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T14:17:24.484Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T14:17:27.686Z"}
+{"level":"info","message":"POST /api/dealers 201 201 - 18.240 ms","timestamp":"2025-06-17T14:17:28.346Z"}
+{"level":"info","message":"POST /api/dealers 201 201 - 2.710 ms","timestamp":"2025-06-17T14:17:53.526Z"}
+{"level":"info","message":"GET /api/dealers 200 17 - 2.358 ms","timestamp":"2025-06-17T14:18:08.476Z"}
+{"level":"info","message":"GET /api/dealers 200 17 - 1.799 ms","timestamp":"2025-06-17T14:18:10.017Z"}
