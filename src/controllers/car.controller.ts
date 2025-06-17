@@ -170,7 +170,26 @@ export const Get_all_cars_by_carMakeId = async (
 ): Promise<void> => {
   try {
 
-    console.log(req.params.id)
+    const id = req.params.id
+    const carMakeId = req.params.carMakeId
+
+    console.log(carMakeId)
+    console.log(id)
+
+
+    const cars = CarStore.findAll()
+
+    const filteredCars = cars.filter(car => {
+      return car.carMakeId == carMakeId
+    })
+
+    res.status(OK).json({
+      success: true,
+      data: filteredCars,
+    })
+
+    // res.send("asas")
+
 
   } catch (error) {
     res.status(BAD_REQUEST).json({

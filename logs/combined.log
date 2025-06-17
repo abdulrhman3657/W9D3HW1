@@ -666,3 +666,6 @@
 {"level":"info","message":"GET /api/car/dealer/010 200 700 - 1.122 ms","timestamp":"2025-06-17T18:40:00.609Z"}
 {"level":"info","message":"POST /api/car 201 247 - 0.789 ms","timestamp":"2025-06-17T18:40:27.238Z"}
 {"level":"info","message":"GET /api/car/dealer/09 200 473 - 0.902 ms","timestamp":"2025-06-17T18:40:34.481Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T18:41:24.106Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T18:41:59.987Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T18:42:13.310Z"}
