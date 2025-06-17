@@ -669,3 +669,28 @@
 {"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T18:41:24.106Z"}
 {"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T18:41:59.987Z"}
 {"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T18:42:13.310Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T18:42:17.259Z"}
+{"level":"info","message":"GET /api/car/carmake/09 200 26 - 4.083 ms","timestamp":"2025-06-17T18:42:44.801Z"}
+{"level":"info","message":"GET /api/car/carmake/09 200 26 - 1.149 ms","timestamp":"2025-06-17T18:42:46.433Z"}
+{"level":"info","message":"GET /api/car/carmake/09 200 26 - 0.949 ms","timestamp":"2025-06-17T18:42:47.204Z"}
+{"level":"info","message":"GET /api/car/carmake/09 200 26 - 0.759 ms","timestamp":"2025-06-17T18:42:47.643Z"}
+{"level":"info","message":"GET /api/car/carmake/09 200 26 - 0.844 ms","timestamp":"2025-06-17T18:42:48.010Z"}
+{"level":"info","message":"GET /api/car/carmake/09 200 26 - 1.041 ms","timestamp":"2025-06-17T18:42:48.015Z"}
+{"level":"info","message":"POST /api/car 201 247 - 14.587 ms","timestamp":"2025-06-17T18:43:12.220Z"}
+{"level":"info","message":"POST /api/car 201 247 - 0.784 ms","timestamp":"2025-06-17T18:43:12.988Z"}
+{"level":"info","message":"POST /api/car 201 247 - 1.009 ms","timestamp":"2025-06-17T18:43:15.755Z"}
+{"level":"info","message":"POST /api/car 201 247 - 0.603 ms","timestamp":"2025-06-17T18:43:23.828Z"}
+{"level":"info","message":"GET /api/car/carmake/09 200 26 - 1.101 ms","timestamp":"2025-06-17T18:43:27.245Z"}
+{"level":"info","message":"GET /api/car/carmake/09 200 26 - 1.073 ms","timestamp":"2025-06-17T18:43:28.944Z"}
+{"level":"info","message":"GET /api/car/carmake/09 200 26 - 0.865 ms","timestamp":"2025-06-17T18:43:29.897Z"}
+{"level":"info","message":"GET /api/car/carmake/09 200 26 - 1.358 ms","timestamp":"2025-06-17T18:43:30.462Z"}
+{"level":"info","message":"GET /api/car/carmake/09 200 26 - 2.244 ms","timestamp":"2025-06-17T18:43:30.890Z"}
+{"level":"info","message":"GET /api/car/carmake/09 200 26 - 2.342 ms","timestamp":"2025-06-17T18:43:31.301Z"}
+{"level":"info","message":"GET /api/car/carmake/09 200 26 - 2.255 ms","timestamp":"2025-06-17T18:43:31.743Z"}
+{"level":"info","message":"GET /api/car/carmake/9000 200 249 - 0.773 ms","timestamp":"2025-06-17T18:43:42.870Z"}
+{"level":"info","message":"POST /api/car 201 247 - 0.557 ms","timestamp":"2025-06-17T18:43:54.350Z"}
+{"level":"info","message":"GET /api/car 200 1145 - 0.321 ms","timestamp":"2025-06-17T18:44:00.386Z"}
+{"level":"info","message":"GET /api/car/carmake/8000 200 697 - 0.827 ms","timestamp":"2025-06-17T18:44:19.852Z"}
+{"level":"info","message":"GET /api/car/carmake/9000 200 473 - 1.045 ms","timestamp":"2025-06-17T18:44:28.856Z"}
+{"level":"info","message":"POST /api/car 201 249 - 0.802 ms","timestamp":"2025-06-17T18:44:46.396Z"}
+{"level":"info","message":"GET /api/car/carmake/9000 200 699 - 0.807 ms","timestamp":"2025-06-17T18:44:48.905Z"}
